@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81cd7ef5-1749-44fc-b3ca-7484343e8082">
+  <producedTypes>
+    <objectType typeId="2a5f9e74-41a8-484f-8993-73a911082bbc" valueTypeId="59778510-3738-4604-839a-ed40f2418ef7"/>
+    <refType typeId="cb4c4219-5a2d-421b-8160-820dac34088b" valueTypeId="4c8c3e73-f258-47a9-bcb0-f923b14f1799"/>
+    <selectionType typeId="28fdd91f-710d-423a-8cb2-7f8187ec0ad0" valueTypeId="7d9b0d48-9176-4833-a061-6364789ac046"/>
+    <listType typeId="08e8dc52-ebc3-4a9f-afa6-bbc963b3dc9e" valueTypeId="28b0c83c-53ef-4e11-b3fb-59c514840e17"/>
+    <managerType typeId="fff583b7-5433-4f5a-9874-d8d5eebffba5" valueTypeId="46e01445-2baf-411f-819f-fb93ff1908eb"/>
+  </producedTypes>
+  <name>ДК_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДК_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДК_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДК_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДК_Должности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДК_Должности.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="61ca88c6-f296-4c61-8979-85e95f28f64d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="771f7a51-3828-4551-862f-c16857246f99">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a930843d-0968-4f75-b35e-9481482fbfc1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
